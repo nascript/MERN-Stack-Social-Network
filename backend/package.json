@@ -1,0 +1,47 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Nasution",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "eslint --watchAll"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "concurrently": "^7.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^5.3.1",
+    "formidable": "^2.0.1",
+    "google-auth-library": "^7.11.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "migrate-mongo": "^8.2.3",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.0",
+    "mongoose-mongodb-errors": "0.0.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.2",
+    "request-ip": "^2.1.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-promise": "^2.0.2",
+    "jest": "^27.5.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
